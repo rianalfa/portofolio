@@ -4,6 +4,7 @@ import { faFigma, faLaravel, faReact } from '@fortawesome/free-brands-svg-icons'
 import Tools from '../components/tools'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Header from '../components/header'
+import Link from 'next/link'
 
 export default function Home() {
 	return (
@@ -22,13 +23,15 @@ export default function Home() {
 									<div className='flex flex-col'>
 										<h1 className='text-5xl text-gray-800 font-black text-center'>Hi there</h1>
 										<h1 className='text-5xl text-gray-800 text-center mt-4'>Welcome to project <span className='text-blue-500 font-black'>alfa</span></h1>
-										<p className='text-xl text-gray-800 font-bold text-center mt-8'>I'm a freelancer as a Full-Stack Web & Mobile App Developer based in Payakumbuh, Indonesia.</p>
-										<p className='text-xl font-semibold text-center mt-4'>I work remotely on projects for my clients</p>
-										<a href="/detail" className='flex justify-between items-center bg-gradient-to-r from-blue-600 to-cyan-400 text-white rounded-full w-3/4 mx-auto px-8 py-4 mt-16
-											hover:bg-gradient-to-br transition-colors duration-300 delay-100 ease-in-out'>
-											<p className='font-bold'>Get started</p>
-											<FontAwesomeIcon icon={faArrowRightLong} className='text-xl align-middle' />
-										</a>
+										<p className='text-xl text-gray-800 font-bold text-center w-3/4 mx-auto mt-8'>I'm a freelancer as a Full-Stack Web & Mobile App Developer based in Payakumbuh, Indonesia. I work remotely on projects for my clients.</p>
+										<p className='text-xl font-semibold text-center mt-4'></p>
+										<Link href="/detail">
+											<a className='flex justify-between items-center bg-gradient-to-r from-blue-600 to-cyan-400 text-white rounded-full w-3/4 mx-auto px-8 py-4 mt-16
+												hover:bg-gradient-to-br transition-colors duration-300 delay-100 ease-in-out'>
+												<p className='font-bold'>Get started</p>
+												<FontAwesomeIcon icon={faArrowRightLong} className='text-xl align-middle' />
+											</a>
+										</Link>
 										<div className='flex justify-between w-full lg:w-1/2 mx-auto mt-8 px-4 lg:px-8'>
 											<div className='flex justify-start space-x-2 w-1/2 border-r-2 border-r-gray-700'>
 												<p className='text-5xl font-bold'>03</p>
@@ -51,7 +54,7 @@ export default function Home() {
 						</div>
 					</div>
 					
-					<div className='flex flex-col bg-gray-100 w-full mt-16'>
+					{/* <div className='flex flex-col bg-gray-100 w-full mt-16'>
 						.<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-8 w-full max-w-7xl mx-auto px-4 lg:px-8 py-4 lg:py-8'>
 							<Tools icon={faLaravel} color="red" title="Laravel" />
 							<Tools icon={faReact} color="cyan" title="React" />
@@ -60,7 +63,7 @@ export default function Home() {
 							<Tools icon={faFontAwesome} color="green" title="FontAwesome" />
 							<Tools icon={faFigma} color="gray" title="Figma" />
 						</div>
-					</div>
+					</div> */}
 				</main>
 			</div>
 		</div>

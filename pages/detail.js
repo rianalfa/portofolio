@@ -1,14 +1,16 @@
 import React, { useState } from 'react'
 import Header from '../components/header';
-import Education from '../components/pages/education';
+import Abouts from '../components/pages/abouts';
+import Educations from '../components/pages/educations';
 import Projects from '../components/pages/projects';
 import SidebarItem from '../components/sidebar-item';
 
 export default function Detail() {
-	const [page, setPage] = useState('education');
+	const [page, setPage] = useState('abouts');
 	const pages = {
-		education: 'Education History',
-		projects: 'Projects I Have Done',
+		abouts: 'Abouts',
+		educations: 'Educations',
+		projects: 'Projects',
 	};
 
     return (
@@ -24,8 +26,9 @@ export default function Detail() {
                             {/* Main Content */}
                             <div className='flex flex-col rounded-2xl w-full px-4 sm:px-6 lg:px-8 py-8 md:py-16 z-40'>
 								<div className='flex flex-col relative w-full'>
-									<Education page={page} />
+									<Educations page={page} />
 									<Projects page={page} />
+                                    <Abouts page={page} />
                                 </div>
                             </div>
 

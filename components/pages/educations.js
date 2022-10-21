@@ -2,10 +2,10 @@ import { Transition } from '@headlessui/react'
 import React from 'react'
 import InformalEducation from '../informal-education'
 
-export default function Education({page}) {
+export default function Educations({page}) {
     return (
         <Transition
-            show={page=="education"}
+            show={page=="educations"}
             enter="transition-all duration-500 delay-300"
             enterFrom="scale-50 opacity-0"
             enterTo="scale-100 opacity-100"
@@ -13,13 +13,13 @@ export default function Education({page}) {
             leaveFrom="scale-100 opacity-100"
             leaveTo="scale-150 opacity-0"
         >
-            <div className='flex flex-col space-y-8'>
+            <div className='flex flex-col space-y-8 md:space-y-12'>
                 <h1 className='text-2xl text-gray-800 font-bold'>Education History</h1>
                 <div className='flex flex-col space-y-4'>
                     <p className='text-xl font-semibold'>Formal Education</p>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-                        <img />
-                        <div className='flex flex-col space-y-2'>
+                        <img src="/graduation.jpg" className='rounded-3xl' />
+                        <div className='flex flex-col space-y-2 pt-4'>
                             <p className='text-lg font-semibold'>Politeknik Statistika STIS</p>
                             <p>I graduated from Politeknik Statistika STIS in the Komputasi Statistik Major, with the degree of Sarjana Statistik Terapan on September 2022</p>
                         </div>
