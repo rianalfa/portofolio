@@ -20,10 +20,10 @@ export default function Abouts({page}) {
                     <div className='flex flex-col space-y-4 grow'>
                         <h1 className='text-2xl text-gray-800 font-bold'>About</h1>
                         <p className='text-xl'>
-                            Hi, I'm Rian Alfa. I'm a very talented problem solver with so many experiences in vast range of disciplines, manager, leader, advisor, full-stack developer, music enthusiast, photographer and more.
+                            Hi, I&apos;m Rian Alfa. I&apos;m a very talented problem solver with so many experiences in vast range of disciplines, manager, leader, advisor, full-stack developer, music enthusiast, photographer and more.
                         </p>
                         <p className='mt-2'>
-                            Though I've just graduated from college in 2022, I've taken parts in so many projects around the topic of education platforms. I've built a lot of web-based education platforms which mostly has an exam-like feature that they offer. I thrive on challenges and constantly setting goals for myself, so I have something to strive for. I always do my best in every opportunity I get. During my college year, I participated in several organizations and committees and contributed to the field of information technology, both as a coordinator and as a member. I created an internal organization website, a dashboard to visualize the documentary of the activities, an a forum for the participants to communicate.
+                            Though I&apos;ve just graduated from college in 2022, I have taken parts in so many projects around the topic of education platforms. I&apos;ve built a lot of web-based education platforms which mostly has an exam-like feature that they offer. I thrive on challenges and constantly setting goals for myself, so I have something to strive for. I always do my best in every opportunity I get. During my college year, I participated in several organizations and committees and contributed to the field of information technology, both as a coordinator and as a member. I created an internal organization website, a dashboard to visualize the documentary of the activities, an a forum for the participants to communicate.
                         </p>
                     </div>
                     <div className='flex items-center flex-shrink-0 w-1/4'>

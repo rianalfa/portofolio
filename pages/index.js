@@ -1,7 +1,5 @@
 import 'font-awesome/css/font-awesome.min.css'
-import { faArrowRightLong, faFontAwesome, faPalette } from '@fortawesome/free-solid-svg-icons'
-import { faFigma, faLaravel, faReact } from '@fortawesome/free-brands-svg-icons'
-import Tools from '../components/tools'
+import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Header from '../components/header'
 import Link from 'next/link'
@@ -22,19 +20,19 @@ export default function Home() {
 								<div className='flex flex-col w-full'>
 									<div className='flex flex-col'>
 										<h1 className='text-5xl text-gray-800 font-black text-center'>Hi there</h1>
-										<h1 className='text-5xl text-gray-800 text-center mt-4'>Welcome to project <span className='text-blue-500 font-black'>alfa</span></h1>
-										<p className='text-xl text-gray-800 font-bold text-center w-3/4 mx-auto mt-8'>I'm a freelancer as a Full-Stack Web & Mobile App Developer based in Payakumbuh, Indonesia. I work remotely on projects for my clients.</p>
+										<h1 className='text-5xl text-gray-800 text-center mt-4'>Welcome to project <span className='font-aremat text-blue-500 font-black'>alfa</span></h1>
+										<p className='text-xl text-gray-800 font-bold text-center w-3/4 mx-auto mt-8'>I&apos;m a freelancer as a Full-Stack Web & Mobile App Developer based in Payakumbuh, Indonesia. I work remotely on projects for my clients.</p>
 										<p className='text-xl font-semibold text-center mt-4'></p>
 										<Link href="/detail">
-											<a className='flex justify-between items-center bg-gradient-to-r from-blue-600 to-cyan-400 text-white rounded-full w-3/4 mx-auto px-8 py-4 mt-16
+											<a className='inline-flex justify-between items-center bg-gradient-to-r from-blue-600 to-cyan-400 text-white rounded-full w-3/4 mx-auto px-8 py-4 mt-16
 												hover:bg-gradient-to-br transition-colors duration-300 delay-100 ease-in-out'>
 												<p className='font-bold'>Get started</p>
-												<FontAwesomeIcon icon={faArrowRightLong} className='text-xl align-middle' />
+												<FontAwesomeIcon icon={faArrowRightLong} className='grow-0 text-xl align-middle' />
 											</a>
 										</Link>
 										<div className='flex justify-between w-full lg:w-1/2 mx-auto mt-8 px-4 lg:px-8'>
 											<div className='flex justify-start space-x-2 w-1/2 border-r-2 border-r-gray-700'>
-												<p className='text-5xl font-bold'>03</p>
+												<p className='text-5xl font-bold'>05</p>
 												<div className='grid content-center justify-items-start font-bold'>
 													<p className='leading-5'>Project(s)</p>
 													<p className='text-blue-600 leading-5'>Have Done</p>

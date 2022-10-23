@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Aremat";
+    src: url("../public/fonts/aremat\ font.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap") format("truetype");
+}
+
+.font-aremat {
+    font-family: 'Aremat';
+}
+
+.font-nunito {
+    font-family: 'Nunito'
+}

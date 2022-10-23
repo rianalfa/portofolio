@@ -26,7 +26,7 @@ export default function Projects({page}) {
                         <Tab.List className='flex space-x-2'>
                             {indexes.map((i) => {
                                 return (
-                                    <Tab as={Fragment}>
+                                    <Tab as={Fragment} key={i}>
                                         {({ selected }) => (
                                             <div className={`bg-gray-300 rounded-full relative cursor-pointer outline-0 ${selected ? "w-10" : "w-5"} h-5`}>
                                                 <Transition className='absolute top-0 left-0'

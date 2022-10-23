@@ -37,7 +37,7 @@ export default function Detail() {
                                 <div className='flex flex-col space-y-2 border-l-2 w-full pl-4 py-8'>
                                     {Object.keys(pages).map((key) => {
                                         return (
-                                            <SidebarItem text={pages[key]} page={key} active={page} setPage={setPage} />
+                                            <SidebarItem text={pages[key]} page={key} active={page} setPage={setPage} key={key} />
                                         );
                                     })}
                                 </div>
