@@ -10,7 +10,7 @@ export default function Projects({page}) {
     let indexes = [0,1,2,3,4];
     return (
         <Transition
-            className='absolute top-0 left-0 w-full'
+            className='lg:absolute top-0 left-0 w-full'
             show={page=="projects"}
             enter="transition-all duration-500 delay-300"
             enterFrom="scale-50 opacity-0"
@@ -21,7 +21,7 @@ export default function Projects({page}) {
         >
             <div className='flex flex-col space-y-8 md:space-y-12'>
                 <Tab.Group selectedIndex={tabIndex} onChange={setTabIndex}>
-                    <div className='flex justify-between items-center'>
+                    <div className='flex flex-col lg:flex-row justify-between items-center space-y-2 lg:space-y-0'>
                         <h1 className='text-2xl text-gray-800 font-bold'>Project(s) I <span className='text-blue-600'>Have Done</span></h1>
                         <Tab.List className='flex space-x-2'>
                             {indexes.map((i) => {

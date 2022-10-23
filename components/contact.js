@@ -18,7 +18,7 @@ export default function Contact({link="", item="", icon="", }) {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
             >
-                <Popover.Panel className='absolute top-0 right-0 lg:-right-4 flex bg-white rounded-lg shadow-md w-60 z-10'>
+                <Popover.Panel className={`absolute top-0 ${link=="Email" ? "-right-12" : "right-0" } lg:-right-4 flex bg-white rounded-lg shadow-md w-60 z-10`}>
                     <a className='text-base text-blue-800 text-center w-full p-2' href={link}>
                         {item}
                     </a>

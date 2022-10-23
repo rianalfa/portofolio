@@ -16,12 +16,12 @@ export default function Home() {
 					<div className='grow text-gray-700 text-xs md:text-base w-full max-w-7xl mb-4 mx-auto px-4 lg:px-8 py-2 lg:py-4'>
 						<div className={`flex flex-col-reverse lg:flex-row space-x-0 lg:space-x-4 space-y-4 space-y-reverse lg:space-y-0 w-full h-full`}>
 							{/* Main Content */}
-							<div className='flex flex-col rounded-2xl w-full p-8 md:p-16 z-40'>
+							<div className='flex flex-col rounded-2xl w-full p-0 md:p-16 z-40'>
 								<div className='flex flex-col w-full'>
 									<div className='flex flex-col'>
-										<h1 className='text-5xl text-gray-800 font-black text-center'>Hi there</h1>
-										<h1 className='text-5xl text-gray-800 text-center mt-4'>Welcome to project <span className='font-aremat text-blue-500 font-black'>alfa</span></h1>
-										<p className='text-xl text-gray-800 font-bold text-center w-3/4 mx-auto mt-8'>I&apos;m a freelancer as a Full-Stack Web & Mobile App Developer based in Payakumbuh, Indonesia. I work remotely on projects for my clients.</p>
+										<h1 className='text-4xl lg:text-5xl text-gray-800 font-black text-center'>Hi there</h1>
+										<h1 className='text-4xl lg:text-5xl text-gray-800 text-center mt-4'>Welcome to project <span className='font-aremat text-blue-500 font-black'>alfa</span></h1>
+										<p className='text-lg lg:text-xl text-gray-800 font-bold text-center w-3/4 mx-auto mt-8'>I&apos;m a freelancer as a Full-Stack Web & Mobile App Developer based in Payakumbuh, Indonesia. I work remotely on projects for my clients.</p>
 										<p className='text-xl font-semibold text-center mt-4'></p>
 										<Link href="/detail">
 											<a className='inline-flex justify-between items-center bg-gradient-to-r from-blue-600 to-cyan-400 text-white rounded-full w-3/4 mx-auto px-8 py-4 mt-16

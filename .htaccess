@@ -1,0 +1,56 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/test"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/test/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/test"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/test/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/itsrianalfa.space"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/itsrianalfa.space/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/itsrianalfa.space"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/itsrianalfa.space/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/test"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/test/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/test"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/test/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/test"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/test/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/iclc8212/test"
+PassengerBaseURI "/"
+PassengerNodejs "/home/iclc8212/nodevenv/test/16/bin/node"
+PassengerAppType node
+PassengerStartupFile app.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
