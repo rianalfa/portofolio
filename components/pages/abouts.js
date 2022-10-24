@@ -6,8 +6,8 @@ import Tools from '../tools'
 export default function Abouts({page}) {
     return (
         <Transition
-            show={page=="abouts"}
             className='lg:absolute top-0 left-0 w-full'
+            show={page=="abouts"}
             enter="transition-all duration-500 delay-300"
             enterFrom="scale-50 opacity-0"
             enterTo="scale-100 opacity-100"

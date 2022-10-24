@@ -10,7 +10,7 @@ export default function ProjectItem({tabIndex, index, title, subtitle, website="
         <Transition className='flex flex-col space-y-8 w-full lg:w-3/4 mx-auto' appear show={tabIndex == index}
             enter="transition-all duration-300" enterFrom="translate-x-80 opacity-0" enterTo="translate-x-0 opacity-100"
         >
-            <div className={`flex flex-col space-y-8 lg:space-y-16 relative bg-gradient-to-br text-white border rounded-3xl p-4 md:p-8 overflow-hidden
+            <div className={`flex flex-col space-y-8 lg:space-y-16 relative bg-gradient-to-br text-white border rounded-3xl p-4 md:p-8 overflow-hidden animate-gradient-xy
                 ${tabIndex%2==0 ? "from-blue-600 to-cyan-400" : "from-gray-600 to-gray-400"}`}>
                 <div className='flex flex-col space-y-4 z-10'>
                     <p className='text-lg font-semibold'>{title}</p>

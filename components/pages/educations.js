@@ -5,6 +5,7 @@ import InformalEducation from '../informal-education'
 export default function Educations({page}) {
     return (
         <Transition
+            className='lg:absolute top-0 left-0 w-full'
             show={page=="educations"}
             enter="transition-all duration-500 delay-300"
             enterFrom="scale-50 opacity-0"
@@ -25,7 +26,7 @@ export default function Educations({page}) {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col space-y-4'>
+                <div className='flex flex-col space-y-4 pb-4 md:pb-8'>
                     <p className='text-xl font-semibold'>Informal Education</p>
                     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
                         <InformalEducation src="kotakode.png" title="Belajar Web Development bersama Kotakode x Progate" year="2021" />
